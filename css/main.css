@@ -164,17 +164,56 @@ a:visited { color: #a0a; }
           width: 100%;
           z-index: 994;
           position: fixed;
-    }
-
+}
 #header .container {
   z-index: 2;
+}
+body{
+  background-color: #c4BDBD;
 }
 .name {
   width: 562px;
   position: absolute;
- left: -73px;
+  left: -73px;
   top: 63px;
   color: #e44919;
   font-size: 2em;
   text-shadow: 2px 2px rgb(196, 191, 191);
+}
+#pageIcon {
+
+  width:271px;
+  height: 158px;
+  position: relative;
+  left: 74px;
+  float: left;
+}
+
+.col1 {
+  width: 396px;
+  height: 60px;
+  background-color: white;
+  position: relative;
+  float: right;
+  right: 107px;
+  top: 98px;
+}
+.col1 li {
+  list-style: none;
+  display: inline;
+  float: left;
+  position: relative;
+  top: 22px;
+}
+.col1 li a {
+  display: inline;
+  padding: 22px;
+  background: rgb(202,59,59);
+  color: black;
+  border-right: 1px solid;
+  text-decoration: none;
+}
+.col1 li a:hover {
+
+  background: orange;
 }
