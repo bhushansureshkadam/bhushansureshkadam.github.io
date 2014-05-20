@@ -159,15 +159,12 @@ a:visited { color: #a0a; }
   background-color: #333;
 }
 #header {
-        height: 158px;
+          height: 158px;
           background: #222222;
-          width: 100%;
-          z-index: 994;
-          position: fixed;
+          width: 1349px;
+        
 }
-#header .container {
-  z-index: 2;
-}
+
 body{
   background-color: #c4BDBD;
 }
