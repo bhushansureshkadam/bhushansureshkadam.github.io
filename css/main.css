@@ -228,6 +228,7 @@ body{
   margin: 15px 0px 19px 262px;
   padding: 70px;
   background:rgb(238,226,226);
+  box-shadow: 7px 7px 7px;
 }
 
 #descriptioncontains {
