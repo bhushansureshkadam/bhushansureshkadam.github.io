@@ -228,8 +228,22 @@ body{
   margin: 15px 0px 19px 262px;
   padding: 70px;
   background:rgb(238,226,226);
-  box-shadow: 7px 7px 7px;
+  box-shadow: 3px 3px 5px 6px #A58888;
+  -moz-box-shadow:    3px 3px 5px 6px #A58888;
+  -webkit-box-shadow: 3px 3px 5px 6px #A58888;
 }
+  body.ie6 #babouts,
+  body.ie7 #abouts,
+  body.ie8 #abouts,
+  body.ie9 #abouts,
+  body.ie10 #abouts {
+    zoom: 1;
+    filter: progid:DXImageTransform.Microsoft.Shadow(Color=#cccccc, Strength=5, Direction=0),
+         progid:DXImageTransform.Microsoft.Shadow(Color=#cccccc, Strength=5, Direction=90),
+         progid:DXImageTransform.Microsoft.Shadow(Color=#cccccc, Strength=5, Direction=180),
+         progid:DXImageTransform.Microsoft.Shadow(Color=#cccccc, Strength=5, Direction=270);
+}
+
 
 #descriptioncontains {
    height: 278px;
