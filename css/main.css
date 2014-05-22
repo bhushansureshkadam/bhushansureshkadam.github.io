@@ -281,6 +281,8 @@ body{
    float: left;
    margin-right: 134px;
    margin-left: 116px;
+   -webkit-border-radius: 50%;
+   -moz-border-radius: 50%;
 }
 
 #myskills {
