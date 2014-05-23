@@ -185,7 +185,7 @@ body{
   body.ie7 .name,
   body.ie8 .name,
   body.ie9 .name,
-  body.ie10 .name{
+  body.ie10 .name {
   zoom: 1;
 	filter: progid:DXImageTransform.Microsoft.DropShadow(OffX=2, OffY=2, rgb(196, 191, 191));
 }
@@ -206,7 +206,7 @@ body{
   position: relative;
   float: right;
   right: 107px;
-  top: 98px;
+  top: 99px;
 }
 
 .col1 li {
