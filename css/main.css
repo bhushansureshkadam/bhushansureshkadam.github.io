@@ -179,6 +179,13 @@ body{
   color: #e44919;
   font-size: 2em;
   text-shadow: 2px 2px rgb(196, 191, 191);
+  } body.ie6 .name,
+  body.ie7 .name,
+  body.ie8 .name,
+  body.ie9 .name,
+  body.ie10 .name{
+  zoom: 1;
+	filter: progid:DXImageTransform.Microsoft.DropShadow(OffX=2, OffY=2, rgb(196, 191, 191));
 }
 
 #pageIcon {
@@ -283,7 +290,7 @@ body{
    margin-left: 116px;
    -webkit-border-radius: 50%;
    -moz-border-radius: 50%;
-   behavior:url(/pie/PIE.htc);
+
 }
 
 #myskills {
