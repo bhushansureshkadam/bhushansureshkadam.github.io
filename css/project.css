@@ -1,0 +1,70 @@
+#header {
+          height: 158px;
+          background: #222222;
+          width: 1349px;
+          z-index: 994;
+          background-repeat: no-repeat; 
+      
+}
+body{
+  background-color: #c4BDBD;
+  height: 900px;
+}
+
+.name {
+  width: 562px;
+  position: absolute;
+  left: -73px;
+  top: 63px;
+  color: #e44919;
+  font-size: 2em;
+  text-shadow: 2px 2px rgb(196, 191, 191);
+   -moz-text-shadow:    2px 2px rgb(196,191,191);
+  -webkit-text-shadow: 2px 2px rgb(196,191,191);
+  } body.ie6 .name,
+  body.ie7 .name,
+  body.ie8 .name,
+  body.ie9 .name,
+  body.ie10 .name {
+  zoom: 1;
+	filter: progid:DXImageTransform.Microsoft.DropShadow(OffX=2, OffY=2, rgb(196, 191, 191));
+}
+
+#pageIcon {
+
+  width:271px;
+  height: 158px;
+  position: relative;
+  left: 74px;
+  float: left;
+}
+
+.col1 {
+  background-color: white;
+  position: relative;
+  float: right;
+  right: 107px;
+  top: 99px;
+}
+
+.col1 li {
+  list-style: none;
+  display: inline;
+  float: left;
+  position: relative;
+  top: 22px;
+}
+
+.col1 li a {
+  display: inline;
+  padding: 22px;
+  background: rgb(202,59,59);
+  color: black;
+  border-right: 1px solid;
+  text-decoration: none;
+}
+
+.col1 li a:hover {
+
+  background: orange;
+}
