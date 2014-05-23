@@ -283,6 +283,7 @@ body{
    margin-left: 116px;
    -webkit-border-radius: 50%;
    -moz-border-radius: 50%;
+   behavior:url(/pie/PIE.htc);
 }
 
 #myskills {
