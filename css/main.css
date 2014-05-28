@@ -499,14 +499,14 @@ body{
  .contain .footerinfo {
     position: relative;
     top: 214px;
-    right: 264px;
+    right: 190px;
     font-size: 10px;
     color:wheat;
  }
  .contain .copyright {
         position:relative;
         top: 214px;
-        left: 263px;
+        left: 142px;
         font-size: 10px;
         color:wheat;
  
