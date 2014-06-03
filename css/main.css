@@ -160,12 +160,14 @@ a:visited { color: #a0a; }
 }
 #header {
           height: 158px;
-          background: #222222;
-          width: 1349px;
-          z-index: 994;
-          background-repeat: no-repeat; 
-      
+          width: auto;
 }
+
+.container {
+               width:960px;
+               margin:0 auto;
+}
+
 body{
   background-color: #c4BDBD;
   height: 900px;
@@ -173,41 +175,24 @@ body{
 
 .name {
   width: 562px;
-  position: absolute;
-  left: -73px;
+  position: relative;
+  right: 101px;
   top: 63px;
   color: #e44919;
   font-size: 2em;
-  text-shadow: 2px 2px rgb(196, 191, 191);
-   -moz-text-shadow:    2px 2px rgb(196,191,191);
-  -webkit-text-shadow: 2px 2px rgb(196,191,191);
-  } body.ie6 .name,
-  body.ie7 .name,
-  body.ie8 .name,
-  body.ie9 .name,
-  body.ie10 .name {
-  zoom: 1;
-	filter: progid:DXImageTransform.Microsoft.DropShadow(OffX=2, OffY=2, rgb(196, 191, 191));
+
 }
+.nav {
 
-#pageIcon {
-
-  width:271px;
-  height: 158px;
-  position: relative;
-  left: 74px;
-  float: left;
-}
-
-.col1 {
+  width: 396px;
+  height: 60px;
   background-color: white;
-  position: relative;
+  margin-top:63px; 
   float: right;
-  right: 107px;
-  top: 99px;
+  
 }
 
-.col1 li {
+.nav li {
   list-style: none;
   display: inline;
   float: left;
@@ -215,7 +200,7 @@ body{
   top: 22px;
 }
 
-.col1 li a {
+.nav li a {
   display: inline;
   padding: 22px;
   background: rgb(202,59,59);
@@ -223,45 +208,38 @@ body{
   border-right: 1px solid;
   text-decoration: none;
 }
+.nav li.about a {
 
-.col1 li a:hover {
+  background:orange;
+}
+
+.nav li a:hover {
 
   background: orange;
 }
 
-#abouts {
-  width: 745px;
-  height: 365px;
-  margin: 15px 0px 19px 262px;
-  padding: 70px;
+#main {
+  width: 960px;
+  height: 511px;
+  margin-left: auto;
+  margin-right: auto;
   background:rgb(238,226,226);
-  box-shadow: 3px 3px 5px 6px #A58888;
-  -moz-box-shadow:    3px 3px 5px 6px #A58888;
+  margin-bottom: 15px;
   -webkit-box-shadow: 3px 3px 5px 6px #A58888;
 }
-  body.ie6 #babouts,
-  body.ie7 #abouts,
-  body.ie8 #abouts,
-  body.ie9 #abouts,
-  body.ie10 #abouts {
-    zoom: 1;
-    filter: progid:DXImageTransform.Microsoft.Shadow(Color=#cccccc, Strength=5, Direction=0),
-         progid:DXImageTransform.Microsoft.Shadow(Color=#cccccc, Strength=5, Direction=90),
-         progid:DXImageTransform.Microsoft.Shadow(Color=#cccccc, Strength=5, Direction=180),
-         progid:DXImageTransform.Microsoft.Shadow(Color=#cccccc, Strength=5, Direction=270);
-}
-
 
 #descriptioncontains {
-   height: 278px;
+   height:425px;
    float: left;
+   padding: 43px;
 }
 
 #description {
   width: 336px;
-  height: 275px;
   float: left;
   font-size: 13px;
+  height: 28px;
+
 }
 #description p {
   font-size: 13px;
@@ -270,33 +248,33 @@ body{
 #description h2 {
      color: rgb(194, 48, 48);
      font-size: 20px;
-     padding:6px;
 }
 #description h3{
   text-align: left;
-  float: left;
-  margin-top: 13px;
-  margin-bottom: 10px;
 }
 
-#mypic {
-   background:url('bhushan.jpg');
-   width: 88px;
+.mypic {
+   
+   width: 109px;
    height: 94px;
-   border-radius: 50%;
    float: left;
    margin-right: 134px;
    margin-left: 116px;
-   -webkit-border-radius: 50%;
-   -moz-border-radius: 50%;
+   background-position: -60px 1px;
+}
 
+.sprites  {
+
+  background: url(image/sprites.png);
+  background-repeat:no-repeat;
 }
 
 #myskills {
-  width: 342px;
-  height: 291px;
+  width: 427px;
+  height: 425px;
   float: right;
-
+  margin-right: 22px;
+  padding: 27px;
 }
 
 #myskills h2 {
@@ -310,7 +288,7 @@ body{
    height: 100px;
    float: right;
    margin: 24px;
-   background: url('css.jpg');
+   background-position: -450px -60px;
    border-radius: 50%;
 }
 .skill1 h5{
@@ -323,7 +301,7 @@ body{
    height: 100px;
    float: right;
    margin: 24px;
-   background: url('html.jpg');
+   background-position: -252px  -47px; 
    border-radius: 50%;
 }
 .skill2 h5{
@@ -339,7 +317,7 @@ body{
    height: 100px;
    float: right;
    margin: 24px;
-   background: url('js.jpg');
+   background-position: -63px -194px;
    border-radius: 50%;
 }
 .skill3 h5 {
@@ -352,7 +330,7 @@ body{
    height: 100px;
    float: right;
    margin: 24px;
-   background: url('jquery.jpg');
+   background-position: -404px -287px;
    border-radius: 50%;
 }
 .skill4 h5 {
@@ -361,17 +339,13 @@ body{
    color: rgb(235, 144, 83);
 }
 #footercontain {
-  width: 1349px;
-  height: 291px;
-  background:#1c1c1c;
-
+  width: auto;
+  height: 231px;
 }
 .contain{
   width: 960px;
   height: 231px;
   margin: 0 auto;
-  padding: 30px;
-
 }
 .contain .whatIdo {
     float: left;
@@ -382,15 +356,14 @@ body{
 }
 .contain h4{
       color: white;
-      padding: 10px;
+      padding: 5px;
       position:relative;
       top: 27px;
       width: 256px;
       float: left;
   }
 
-.contain #mypics {
-     background: url('bhushan.jpg');
+.contain .mypics {
      width: 88px;
      height: 94px;
      float: left;
@@ -398,12 +371,13 @@ body{
      margin-right: 134px;
      margin-left: 116px;
      top: 38px;
+     background-position: 0px 0px;
 
 }
 
 .contain #metaAboutme{
-         float:right;
          position:relative;
+         float: right;
          right:145px;
          top:62px;
 }
@@ -440,34 +414,27 @@ body{
       color: white;
       padding: 10px;
       position: relative;
-      top: 11px;
+      top: 27px;
       width: 256px;
-      float: left;
+     float: left;
 
 }
 
-.contactme #mail {
-          width: 38px;
-          height: 33px;
-          float: right;
-          position: relative;
-          top: 62px;
-          right: 349px;
+.contactme .mail {
+          width: 41px;
+          height: 46px;
+         float: right;
+         position: relative;
+         top: 76px;
+         right: 341px;
+         background-position: -49px -121px;
 }
-.contactme .sprite {
-  background:url('email.jpg');
-  background-repeat: no-repeat;
 
-}
-.contactme .sprites {
-  background:url('mobile.jpg');
-  background-repeat: no-repeat;
-}
 
 #emailId {
       position: relative;
-      top:35px;
-      right:133px;
+      top:48px;
+      left:18px;
       font-size:14px;
       color:rgb(228, 32, 94);
 }
@@ -475,40 +442,26 @@ body{
   color: black;
 }
 
-#mobile {
+.mobile {
 
         width:52px;
-        height:79px;
+        height:73px;
         position:relative;
-        top:59px;
+        top:94px;
         float:right;
-        right:334px;
+        right:337px;
+        background-position: -137px -36px;
 }
 
 #myMobileNo {
         position:relative;
-        top:88px;
-        left:0px;
+        top:100px;
+        right:11px;
         color:rgb(228, 32, 94);
 }
  
  #myMobileNo:hover {
 
     color: black;
- }
- .contain .footerinfo {
-    position: relative;
-    top: 214px;
-    right: 190px;
-    font-size: 10px;
-    color:wheat;
- }
- .contain .copyright {
-        position:relative;
-        top: 214px;
-        left: 142px;
-        font-size: 10px;
-        color:wheat;
- 
  }
 

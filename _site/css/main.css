@@ -159,21 +159,356 @@ a:visited { color: #a0a; }
   background-color: #333;
 }
 #header {
-        height: 158px;
+          height: 158px;
           background: #222222;
-          width: 100%;
+          width: 1349px;
           z-index: 994;
-          position: fixed;
+          background-repeat: no-repeat; 
+      
 }
-#header .container {
-  z-index: 2;
+body{
+  background-color: #c4BDBD;
+  height: 900px;
 }
+
 .name {
   width: 562px;
   position: absolute;
- left: -73px;
+  left: -73px;
   top: 63px;
   color: #e44919;
   font-size: 2em;
   text-shadow: 2px 2px rgb(196, 191, 191);
+   -moz-text-shadow:    2px 2px rgb(196,191,191);
+  -webkit-text-shadow: 2px 2px rgb(196,191,191);
+  } body.ie6 .name,
+  body.ie7 .name,
+  body.ie8 .name,
+  body.ie9 .name,
+  body.ie10 .name {
+  zoom: 1;
+	filter: progid:DXImageTransform.Microsoft.DropShadow(OffX=2, OffY=2, rgb(196, 191, 191));
 }
+
+#pageIcon {
+
+  width:271px;
+  height: 158px;
+  position: relative;
+  left: 74px;
+  float: left;
+}
+
+.col1 {
+  background-color: white;
+  position: relative;
+  float: right;
+  right: 107px;
+  top: 99px;
+}
+
+.col1 li {
+  list-style: none;
+  display: inline;
+  float: left;
+  position: relative;
+  top: 22px;
+}
+
+.col1 li a {
+  display: inline;
+  padding: 22px;
+  background: rgb(202,59,59);
+  color: black;
+  border-right: 1px solid;
+  text-decoration: none;
+}
+
+.col1 li a:hover {
+
+  background: orange;
+}
+
+#abouts {
+  width: 745px;
+  height: 365px;
+  margin: 15px 0px 19px 262px;
+  padding: 70px;
+  background:rgb(238,226,226);
+  box-shadow: 3px 3px 5px 6px #A58888;
+  -moz-box-shadow:    3px 3px 5px 6px #A58888;
+  -webkit-box-shadow: 3px 3px 5px 6px #A58888;
+}
+  body.ie6 #babouts,
+  body.ie7 #abouts,
+  body.ie8 #abouts,
+  body.ie9 #abouts,
+  body.ie10 #abouts {
+    zoom: 1;
+    filter: progid:DXImageTransform.Microsoft.Shadow(Color=#cccccc, Strength=5, Direction=0),
+         progid:DXImageTransform.Microsoft.Shadow(Color=#cccccc, Strength=5, Direction=90),
+         progid:DXImageTransform.Microsoft.Shadow(Color=#cccccc, Strength=5, Direction=180),
+         progid:DXImageTransform.Microsoft.Shadow(Color=#cccccc, Strength=5, Direction=270);
+}
+
+
+#descriptioncontains {
+   height: 278px;
+   float: left;
+}
+
+#description {
+  width: 336px;
+  height: 275px;
+  float: left;
+  font-size: 13px;
+}
+#description p {
+  font-size: 13px;
+  text-align: left;
+}
+#description h2 {
+     color: rgb(194, 48, 48);
+     font-size: 20px;
+     padding:6px;
+}
+#description h3{
+  text-align: left;
+  float: left;
+  margin-top: 13px;
+  margin-bottom: 10px;
+}
+
+#mypic {
+   background:url('bhushan.jpg');
+   width: 88px;
+   height: 94px;
+   border-radius: 50%;
+   float: left;
+   margin-right: 134px;
+   margin-left: 116px;
+   -webkit-border-radius: 50%;
+   -moz-border-radius: 50%;
+
+}
+
+#myskills {
+  width: 342px;
+  height: 291px;
+  float: right;
+
+}
+
+#myskills h2 {
+     padding: 12px;
+     color: rgb(194, 48, 48);
+     font-size: 20px;
+}
+
+#myskills .skill1{
+   width: 114px;
+   height: 100px;
+   float: right;
+   margin: 24px;
+   background: url('css.jpg');
+   border-radius: 50%;
+}
+.skill1 h5{
+  font-size: 15px;
+  margin-top:33px; 
+  color: rgb(235, 144, 83);
+}
+#myskills .skill2{
+   width: 114px;
+   height: 100px;
+   float: right;
+   margin: 24px;
+   background: url('html.jpg');
+   border-radius: 50%;
+}
+.skill2 h5{
+
+   font-size: 15px;
+   margin-top:33px; 
+   color: rgb(235, 144, 83);
+
+}
+
+#myskills .skill3{
+   width: 114px;
+   height: 100px;
+   float: right;
+   margin: 24px;
+   background: url('js.jpg');
+   border-radius: 50%;
+}
+.skill3 h5 {
+   font-size: 15px;
+   margin-top:33px; 
+   color: rgb(235, 144, 83);
+}
+#myskills .skill4{
+   width: 114px;
+   height: 100px;
+   float: right;
+   margin: 24px;
+   background: url('jquery.jpg');
+   border-radius: 50%;
+}
+.skill4 h5 {
+   font-size: 15px;
+   margin-top:33px; 
+   color: rgb(235, 144, 83);
+}
+#footercontain {
+  width: 1349px;
+  height: 291px;
+  background:#1c1c1c;
+
+}
+.contain{
+  width: 960px;
+  height: 231px;
+  margin: 0 auto;
+  padding: 30px;
+
+}
+.contain .whatIdo {
+    float: left;
+    height: 231px;
+    width: 470px;
+    border-right: 1px solid white;
+
+}
+.contain h4{
+      color: white;
+      padding: 10px;
+      position:relative;
+      top: 27px;
+      width: 256px;
+      float: left;
+  }
+
+.contain #mypics {
+     background: url('bhushan.jpg');
+     width: 88px;
+     height: 94px;
+     float: left;
+     position: relative;
+     margin-right: 134px;
+     margin-left: 116px;
+     top: 38px;
+
+}
+
+.contain #metaAboutme{
+         float:right;
+         position:relative;
+         right:145px;
+         top:62px;
+}
+ #metaAboutme .names{
+       color:rgb(228, 32, 94);;
+       font-weight: normal;
+       position: relative;
+       left: 22px;
+       font-size: 1.2em;
+ }
+  #metaAboutme .job{
+    color:rgb(228, 32, 94);
+    font-size: 1em;
+} 
+
+#metaAboutme .names:hover {
+  color: black;
+}
+
+#metaAboutme .job:hover {
+  color: black;
+}
+
+.contain:hover {
+    background:rgb(83, 154, 172);
+}
+.contactme {
+  float: right;
+  width: 480px;
+  height:231px;
+
+}
+.contactme h4 {
+      color: white;
+      padding: 10px;
+      position: relative;
+      top: 11px;
+      width: 256px;
+      float: left;
+
+}
+
+.contactme #mail {
+          width: 38px;
+          height: 33px;
+          float: right;
+          position: relative;
+          top: 62px;
+          right: 349px;
+}
+.contactme .sprite {
+  background:url('email.jpg');
+  background-repeat: no-repeat;
+
+}
+.contactme .sprites {
+  background:url('mobile.jpg');
+  background-repeat: no-repeat;
+}
+
+#emailId {
+      position: relative;
+      top:35px;
+      right:133px;
+      font-size:14px;
+      color:rgb(228, 32, 94);
+}
+#emailId:hover {
+  color: black;
+}
+
+#mobile {
+
+        width:52px;
+        height:79px;
+        position:relative;
+        top:59px;
+        float:right;
+        right:334px;
+}
+
+#myMobileNo {
+        position:relative;
+        top:88px;
+        left:0px;
+        color:rgb(228, 32, 94);
+}
+ 
+ #myMobileNo:hover {
+
+    color: black;
+ }
+ .contain .footerinfo {
+    position: relative;
+    top: 214px;
+    right: 190px;
+    font-size: 10px;
+    color:wheat;
+ }
+ .contain .copyright {
+        position:relative;
+        top: 214px;
+        left: 142px;
+        font-size: 10px;
+        color:wheat;
+ 
+ }
+
