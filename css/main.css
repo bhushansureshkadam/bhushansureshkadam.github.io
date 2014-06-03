@@ -176,7 +176,7 @@ body{
 .name {
   width: 562px;
   position: relative;
-  right: 101px;
+  right: 288px;
   top: 63px;
   color: #e44919;
   font-size: 2em;
@@ -187,7 +187,7 @@ body{
   width: 396px;
   height: 60px;
   background-color: white;
-  margin-top:63px; 
+  margin-top:14px; 
   float: right;
   
 }
@@ -244,6 +244,8 @@ body{
 #description p {
   font-size: 13px;
   text-align: left;
+  margin:0;
+  margin-top:19px;
 }
 #description h2 {
      color: rgb(194, 48, 48);
@@ -251,6 +253,8 @@ body{
 }
 #description h3{
   text-align: left;
+  height: 45px;
+  margin-top: 112px;
 }
 
 .mypic {
