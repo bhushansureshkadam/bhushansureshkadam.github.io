@@ -170,27 +170,22 @@ a:visited { color: #a0a; }
 
 body{
   
-  height: 900px;
+  height: 915px;
 }
 
  .name {
-  width:269px;
   position:relative;
-  right:101px;
   top:63px;
   color:#e44919;
   font-size:2em;
-  left:11px;
+  left:2px;
   float: left;
 }
 .nav {
-
-  width: 408px;
-  height: 60px;
   background: #fff;
   position:relative;
-  top: 44px; 
-  float: right;
+  top:44px; 
+  float:right;
   
 }
 
