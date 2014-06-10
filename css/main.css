@@ -169,14 +169,14 @@ a:visited { color: #a0a; }
 }
 
 body{
-  background-color: #c4BDBD;
+  
   height: 900px;
 }
 
 .name {
   width: 562px;
   position: relative;
-  right: 288px;
+  right: 148px;
   top: 63px;
   color: #e44919;
   font-size: 2em;
@@ -186,7 +186,7 @@ body{
 
   width: 396px;
   height: 60px;
-  margin-top:14px; 
+  margin-top:46px; 
   float: right;
   
 }
@@ -228,9 +228,10 @@ body{
 }
 
 #descriptioncontains {
-   height:425px;
+width:420px;
+   height:451px;
    float: left;
-   padding: 43px;
+   padding: 30px;
 }
 
 #description {
@@ -273,11 +274,10 @@ body{
 }
 
 #myskills {
-  width: 427px;
-  height: 425px;
+  width: 420px;
+  height: 451px;
   float: right;
-  margin-right: 22px;
-  padding: 27px;
+  padding: 30px;
 }
 
 #myskills h2 {
@@ -404,9 +404,7 @@ body{
   color: black;
 }
 
-.contain:hover {
-    background:rgb(83, 154, 172);
-}
+
 .contactme {
   float: right;
   width: 480px;
