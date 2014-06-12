@@ -169,7 +169,7 @@ a:visited { color: #a0a; }
 }
 
 body{
-  
+  background:#f8f8f8;
   height: 915px;
 }
 
@@ -221,7 +221,7 @@ body{
   margin-right: auto;
   background:rgb(238,226,226);
   margin-bottom: 15px;
-  -webkit-box-shadow: 3px 3px 5px 6px #A58888;
+  background: #fff;
 }
 
 #descriptioncontains {
@@ -351,11 +351,11 @@ width:420px;
     float: left;
     height: 231px;
     width: 470px;
-    border-right: 1px solid white;
+    border-right: 1px solid #000;
 
 }
 .contain h4{
-      color: white;
+  
       padding: 5px;
       position:relative;
       top: 27px;
@@ -365,43 +365,32 @@ width:420px;
 
 .contain .mypics {
      width: 88px;
-     height: 94px;
+     height: 75px;
      float: left;
      position: relative;
      margin-right: 134px;
-     margin-left: 116px;
-     top: 38px;
-     background-position: 0px 0px;
+     margin-left: 97px;
+     top: 45px;
+     background-position: -10px -14px;
 
 }
-
 .contain #metaAboutme{
          position:relative;
          float: right;
-         right:145px;
-         top:62px;
+         right:173px;
+         top:64px;
 }
  #metaAboutme .names{
-       color:rgb(228, 32, 94);;
+       color:#000;
        font-weight: normal;
        position: relative;
        left: 22px;
        font-size: 1.2em;
  }
   #metaAboutme .job{
-    color:rgb(228, 32, 94);
+    color:#000;
     font-size: 1em;
 } 
-
-#metaAboutme .names:hover {
-  color: black;
-}
-
-#metaAboutme .job:hover {
-  color: black;
-}
-
-
 .contactme {
   float: right;
   width: 480px;
@@ -409,12 +398,12 @@ width:420px;
 
 }
 .contactme h4 {
-      color: white;
+    
       padding: 10px;
       position: relative;
       top: 27px;
       width: 256px;
-     float: left;
+      float: left;
 
 }
 
@@ -434,12 +423,8 @@ width:420px;
       top:48px;
       left:18px;
       font-size:14px;
-      color:rgb(228, 32, 94);
+      color:#000;
 }
-#emailId:hover {
-  color: black;
-}
-
 .mobile {
 
         width:52px;
@@ -455,11 +440,7 @@ width:420px;
         position:relative;
         top:100px;
         right:11px;
-        color:rgb(228, 32, 94);
+        color:#000;
 }
  
- #myMobileNo:hover {
-
-    color: black;
- }
 
