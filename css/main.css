@@ -182,38 +182,34 @@ body{
   float: left;
 }
 .nav {
-  background: #fff;
   position:relative;
   top:44px; 
   float:right;
-  
+  padding:0;
+  margin:0;
 }
 
 .nav li {
   list-style: none;
   display: inline;
-  line-height:60px;
+  padding-right: 10px;
  
+} 
+.nav ul li a:hover {
+           
+      border-bottom:2px solid #000;
 }
 
 .nav li a {
   display: inline;
-  padding: 22px;
-  background: rgb(202,59,59);
+  padding: 4px;
   color: black;
-  border-right: 1px solid;
   text-decoration: none;
 }
 .nav li.about a {
 
-  background:orange;
+  border-bottom:2px solid #000;
 }
-
-.nav li a:hover {
-
-  background: orange;
-}
-
 #main {
   width: 960px;
   height: 511px;
