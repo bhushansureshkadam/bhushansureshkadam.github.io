@@ -195,20 +195,20 @@ body{
   padding-right: 10px;
  
 } 
-.nav ul li a:hover {
+.nav li a:hover {
            
-      border-bottom:2px solid #000;
+      border-bottom: 2px solid #000;
 }
 
 .nav li a {
   display: inline;
   padding: 4px;
-  color: black;
   text-decoration: none;
 }
 .nav li.about a {
 
-  border-bottom:2px solid #000;
+  border-bottom: 2px solid #000;
+  color:#000;
 }
 #main {
   width: 960px;
