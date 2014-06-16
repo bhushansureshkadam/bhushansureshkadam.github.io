@@ -7,26 +7,26 @@
 	<h1>CSS Floats</h1>
 	<div id="parent">
     <h2>Parent Container</h2>
-    <div id="purple" class="box inlineBlock">
+    <div id="pink" class="box inlineBlock">
        <h4></h4>
     </div>
-    <div id="red" class="box inlineBlock">
+    <div id="green" class="box inlineBlock">
       <h4></h4>
     </div>
    </div>
     <p>
         Click the buttons below to control Float value of the box's shown above.
         <br>
-        Note:- in the nomal flow of document red box is present after purple box
+        Note:- in the nomal flow of document green box is present after pink box
      </p>
 
-     <div id="purpleBoxControls">
-      <h3>Purple Box Float Controls</h3>
+     <div id="pinkBoxControls">
+      <h3>Pink Box Float Controls</h3>
       <button id="floatLeft">left</button>
       <button id="floatRight">right</button>
      </div>
-      <div id="redBoxControls">
-      <h3> Red Box Float Controls</h3>
+      <div id="greenBoxControls">
+      <h3> green Box Float Controls</h3>
       <button id="floatLeft">left</button>
       <button id="floatRight">right</button>
 
@@ -34,30 +34,6 @@
 
 </div>
 <script src="jquery-2.1.0.js"></script>
-<script>
-   
-    $("button").bind('click',function(){ 
-          var $this = $(this);
-     
-          var parentWrapperId =$this.parents().attr('id');
-          var value = $this.text();
-
-          if(parentWrapperId =="purpleBoxControls"){
-
-          	$("#purple").css("float",value);
-          	$("#purple h4").html("float:"+value);
-          }
-          if(parentWrapperId=="redBoxControls"){
-          	$("#red").css("float",value);
-          	$("#red h4").html("float:"+value);
-          }
-   });
-
-
-</script>
-
-
-
-
+<script type="text/javascript" src="position.js"></script>
 </body>
 </html>

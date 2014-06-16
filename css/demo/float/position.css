@@ -3,14 +3,14 @@ body{
 	margin: 0px;
 	padding: 0px;
 	font: 15px/22.5px "wf_SegoeUI","Segoe UI","Segoe","Segoe WP","Tahoma","Verdana","Arial","sans-serif";
-    background-color: #f0efe7;
+    background-color: #fff;
     color: rgb(105, 97, 97);
 }
 #mainContainer{
 
 	width: 960px;
 	margin: 0px auto;
-	background: #fff;
+	background: #f8f8f8;
 	border: 1px solid #B6B4B4;
 	position: relative;
 	padding: 0px 10px 30px 10px;
@@ -23,7 +23,7 @@ h1{
 
 }
 #parent{
-	background: rgb(0, 173, 240);
+	background: #9d9383;
 	height: 310px;
 	color: #fff;
 }
@@ -34,16 +34,10 @@ h2{
     font-weight: bold;
     margin: 0.83em 0;
 }
-#purple{
+#pink{
 
-	background: rgb(114, 10, 196);
-    -webkit-transition: all 1.0s ease-in-out;
-    -moz-transition: all ease-out 5s;
-    -o-transition: all ease-out 5s;
-    transition: all 1.0s ease-in-out;
-
-
-}
+	background: #972c89;
+ }
 .inlineBlock{
 	display: inline-block;
     border: 1px solid rgba(128, 128, 128, 0.41);
@@ -62,14 +56,10 @@ h4{
     font-weight: bold;
     margin: 1.33em 0;
 }
-#red{
-	background: red;
-	 -webkit-transition: all 1.0s ease-in-out;
-    -moz-transition: all ease-out 5s;
-    -o-transition: all ease-out 5s;
-    transition: all 1.0s ease-in-out 5s;
+#green{
+	background: #7ca35b;
 }
-#purpleBoxControls{
+#pinkBoxControls{
 	width: 220px;
 	margin-top: 10px;
 	height: 145px;
@@ -89,7 +79,7 @@ button{
 
 	height: 33px;
     color: #fff;
-    background-color: rgb(0, 92, 255);
+    background-color: rgb(45,55,73);
     font-size: 16px;
     border: none;
    -webkit-border-radius: 3px;
@@ -99,7 +89,7 @@ button{
    margin-top: 10px;
    outline: none;
 }
-#redBoxControls{
+#greenBoxControls{
 
 	width: 220px;
     height: 145px;
