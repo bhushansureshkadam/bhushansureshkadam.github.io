@@ -5,13 +5,13 @@
           var parentWrapperId =$this.parents().attr('id');
           var value = $this.text();
 
-          if(parentWrapperId =="pinkBoxControls"){
+          if(parentWrapperId =="blueBoxControls"){
 
+          	$("#blue").css("float",value);
+          	$("#blue h4").html("float:"+value);
+          }
+          if(parentWrapperId=="pinkBoxControls"){
           	$("#pink").css("float",value);
           	$("#pink h4").html("float:"+value);
-          }
-          if(parentWrapperId=="greenBoxControls"){
-          	$("#green").css("float",value);
-          	$("#green h4").html("float:"+value);
           }
    });

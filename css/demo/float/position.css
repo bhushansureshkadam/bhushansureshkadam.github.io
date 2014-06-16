@@ -10,7 +10,7 @@ body{
 
 	width: 960px;
 	margin: 0px auto;
-	background: #f8f8f8;
+	background: #A39595;
 	border: 1px solid #B6B4B4;
 	position: relative;
 	padding: 0px 10px 30px 10px;
@@ -23,7 +23,7 @@ h1{
 
 }
 #parent{
-	background: #9d9383;
+	background:#292723;
 	height: 310px;
 	color: #fff;
 }
@@ -34,9 +34,9 @@ h2{
     font-weight: bold;
     margin: 0.83em 0;
 }
-#pink{
+#blue{
 
-	background: #972c89;
+	background: #5261AF;
  }
 .inlineBlock{
 	display: inline-block;
@@ -56,10 +56,10 @@ h4{
     font-weight: bold;
     margin: 1.33em 0;
 }
-#green{
-	background: #7ca35b;
+#pink{
+	background: #D6A1D6;
 }
-#pinkBoxControls{
+#blueBoxControls{
 	width: 220px;
 	margin-top: 10px;
 	height: 145px;
@@ -75,6 +75,9 @@ h3{
 	font-weight: bold;
 	margin: 1em 0;
 }
+p{
+    color:#fff;
+}
 button{
 
 	height: 33px;
@@ -89,7 +92,7 @@ button{
    margin-top: 10px;
    outline: none;
 }
-#greenBoxControls{
+#pinkBoxControls{
 
 	width: 220px;
     height: 145px;
