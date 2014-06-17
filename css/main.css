@@ -209,7 +209,7 @@ body{
 .nav li.about a {
 
   border-bottom: 1px solid #000;
-  color:#000;
+  color:#998A8A;
 }
 #main {
   width: 960px;
@@ -237,18 +237,24 @@ width:420px;
 
 }
 #description p {
-  font-size: 13px;
-  text-align: left;
-  margin:0;
-  margin-top:19px;
+  
+   text-align: left;
+   margin:0;
+   font-family: sans-serif;
+   font-weight: normal;
+   color: rgb(154, 138, 138);
+   font-size:15px;
+   margin-top:25px;
 }
 #description h2 {
      color: rgb(111, 190, 193);
      font-size: 20px;
 }
 #description h3{
-  text-align: left;
+  text-align:start;
   height: 45px;
+  font-size: 16px;
+  color: #A3A0A0;
   margin-top: 112px;
 }
 
@@ -385,14 +391,14 @@ width:420px;
          top:64px;
 }
  #metaAboutme .names{
-       color:#000;
+       color:#998A8A;
        font-weight: normal;
        position: relative;
        left: 22px;
        font-size: 1.2em;
  }
   #metaAboutme .job{
-    color:#000;
+    color:#998A8A;
     font-size: 1em;
 } 
 .contactme {
@@ -414,20 +420,20 @@ width:420px;
 .contactme .mail {
           width: 41px;
           height: 46px;
-         float: right;
-         position: relative;
-         top: 76px;
-         right: 341px;
-         background-position: -49px -121px;
+          float: right;
+          position: relative;
+          top: 76px;
+          right: 341px;
+          background-position: -49px -121px;
 }
 
 
 #emailId {
       position: relative;
-      top:48px;
-      left:18px;
+      top:50px;
+      left:27px;
       font-size:14px;
-      color:#000;
+      color:#998A8A;
 }
 .mobile {
 
@@ -442,9 +448,9 @@ width:420px;
 
 #myMobileNo {
         position:relative;
-        top:100px;
-        right:11px;
-        color:#000;
+        top:114px;
+        right:5px;
+        color:#998A8A;
 }
  
 
