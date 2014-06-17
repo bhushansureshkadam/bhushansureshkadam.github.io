@@ -204,6 +204,7 @@ body{
   display: inline;
   padding: 4px;
   text-decoration: none;
+  color: rgb(111, 190, 193);
 }
 .nav li.about a {
 
