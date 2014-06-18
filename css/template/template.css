@@ -23,7 +23,7 @@ body{
 .nav {
   
   position:relative;
-  top:44px; 
+  top:74px; 
   float:right;
   padding:0;
   margin:0;
@@ -87,6 +87,7 @@ body{
     font-size: 1.3em;
     display: inline-block;
     border-bottom: 2px solid rgb(221, 56, 115);
+    color: #E0A9A9;
 }
 .main ul li img.image1 {
 
