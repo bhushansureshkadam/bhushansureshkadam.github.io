@@ -1,7 +1,7 @@
 body{
   
 
-  background:#f8f8f8;
+  background:rgba(151, 136, 136, 0.11);
 }
 #header {
           height: 158px;
@@ -15,13 +15,13 @@ body{
 .name {
   position:relative;
   top:63px;
-  color:#e44919;
+  color:rgb(111, 190, 193);
   font-size:2em;
   left:2px;
   float: left;
 }
 .nav {
-  background: #fff;
+  
   position:relative;
   top:44px; 
   float:right;
@@ -32,23 +32,22 @@ body{
 .nav li {
   list-style: none;
   display: inline;
-  line-height:60px;
+  padding-right:10px;
 }
 .nav li a {
   display: inline;
-  padding: 22px;
-  background: rgb(202,59,59);
-  color: black;
-  border-right: 1px solid;
+  padding: 4px;
+  color: rgb(111, 190, 193);
   text-decoration: none;
 }
 .nav li.template a {
 
-  background:orange;
+  color: #998A8A;
+  border-bottom: 1px solid #000;
 }
 .nav li a:hover {
 
-  background: orange;
+  border-bottom: 1px solid #000;
 }
 .postcontainer {
 
@@ -60,6 +59,9 @@ body{
 
       height:525px;
       
+}
+.main h1 {
+  color: #999494;
 }
 .main ul {
      padding: 0;
@@ -74,7 +76,7 @@ body{
        height:414px;
        padding:20px;
        background:#fff;
-       border:1px solid #000;
+       border:1px solid #D7CECE;
        margin-right:10px;
 }
 .main ul li a.title {
@@ -106,7 +108,7 @@ body{
        text-align:center;
        padding-left:0px;
        color:#fff;
-       background-color:#000;
+       background-color:#1A7699;
        border-color:red;
        font-weight:bold;
        border-radius:15px;
@@ -122,7 +124,7 @@ body{
        text-align:center;
        padding-left:0px;
        color:#fff;
-       background-color:#000;
+       background-color:#1A7699;
        border-color:red;
        font-weight:bold;
        border-radius:15px;
@@ -144,11 +146,11 @@ body{
     float: left;
     height: 254px;
     width: 470px;
-    border-right: 1px solid rgb(5, 1, 1);
+    border-right: 1px solid #B5A6A6;
 
 }
 .footercontain h4{
-      color:#000;
+      color:#998A8A;
       padding: 5px;
       position:relative;
       top: 27px;
@@ -176,14 +178,14 @@ body{
          top:62px;
 }
  #metaAboutme .names{
-       color:#000;
+       color:#998A8A;
        font-weight: normal;
        position: relative;
        left: -2px;
        font-size: 1.2em;
  }
   #metaAboutme .job{
-    color:#000;
+    color:#998A8A;
     font-size: 1em;
 } 
 .contactme {
@@ -193,7 +195,7 @@ body{
 
 }
 .contactme h4 {
-      color:#000;
+      color:#998A8A;
       padding: 10px;
       position: relative;
       top: 27px;
@@ -217,7 +219,7 @@ body{
       top:49px;
       left:156px;
       font-size:14px;
-      color:#000;
+      color:#998A8A;
       font-family: sans-serif;
 }
 
@@ -236,5 +238,5 @@ body{
         position:relative;
         top:137px;
         left:168px;
-        color:#000;
+        color:#998A8A;
 }

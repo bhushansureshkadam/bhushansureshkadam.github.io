@@ -1,7 +1,7 @@
 body{
   
 
-  background:#f8f8f8;
+  background:rgba(151, 136, 136, 0.11);
 }
 #header {
           height: 158px;
@@ -21,7 +21,6 @@ body{
   float: left;
 }
 .nav {
-  background: #fff;
   position:relative;
   top:44px; 
   float:right;
