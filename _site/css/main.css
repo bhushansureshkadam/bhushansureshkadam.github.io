@@ -284,64 +284,41 @@ width:420px;
 }
 
 #myskills .skill1{
-   width: 114px;
-   height: 100px;
+   width: 110px;
+   height: 98px;
    float: right;
    margin: 24px;
-   background-position: -450px -60px;
-   border-radius: 15px;
-   border:2px solid rgb(234, 229, 229);
+   background-position: -1px -99px;
+   border: 1px;
+   border-radius:15px;
 }
-.skill1 h5{
-  font-size: 15px;
-  margin-top:33px; 
-  color: rgb(235, 144, 83);
-}
+
 #myskills .skill2{
    width: 114px;
    height: 100px;
    float: right;
    margin: 24px;
-   background-position: -252px  -47px; 
-   border-radius: 15px;
-   border:2px solid rgb(234, 229, 229);
-}
-.skill2 h5{
-
-   font-size: 15px;
-   margin-top:33px; 
-   color: rgb(235, 144, 83);
+   background-position: -110px  -1px; 
 
 }
-
 #myskills .skill3{
-   width: 114px;
+   width: 108px;
    height: 100px;
    float: right;
    margin: 24px;
-   background-position: -63px -194px;
-   border-radius: 15px;
-   border:2px solid rgb(234, 229, 229);
-}
-.skill3 h5 {
-   font-size: 15px;
-   margin-top:33px; 
-   color: rgb(235, 144, 83);
+   background-position: -117px -99px;
+   border-radius:16px;
+   border:1px;
 }
 #myskills .skill4{
-   width: 114px;
+   width: 107px;
    height: 100px;
    float: right;
    margin: 24px;
-   background-position: -404px -287px;
+   background-position: -4px -208px;
    border-radius: 15px;
-   border:2px solid rgb(234, 229, 229);
-}
-.skill4 h5 {
-   font-size: 15px;
-   margin-top:33px; 
-   color: rgb(235, 144, 83);
-}
+   border: 1px;
+ }
 #footercontain {
   width: auto;
 }
@@ -375,7 +352,7 @@ width:420px;
      margin-right: 134px;
      margin-left: 97px;
      top: 45px;
-     background-position: -10px -14px;
+     background-position: -10px -1px;
      border-radius:50%;
 
 }
@@ -417,9 +394,9 @@ width:420px;
           height: 46px;
           float: right;
           position: relative;
-          top: 76px;
+          top: 73px;
           right: 341px;
-          background-position: -49px -121px;
+          background-position: -178px -221px;
 }
 
 
@@ -433,12 +410,12 @@ width:420px;
 .mobile {
 
         width:52px;
-        height:73px;
+        height:56px;
         position:relative;
         top:94px;
         float:right;
         right:337px;
-        background-position: -137px -36px;
+        background-position: -119px -212px;
 }
 
 #myMobileNo {
