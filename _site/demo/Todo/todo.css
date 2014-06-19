@@ -84,6 +84,7 @@ body{
        top: 43px;
        background-position: -93px -212px;
        left: 4px;
+       cursor: pointer;
 }
 #itemContainer {
 	position: relative;
@@ -112,6 +113,7 @@ body{
     background-position: -101px -70px;
     left: 8px;
     top: 28px;
+    cursor: pointer;
 }
 p {
 	display: inline-block;
@@ -132,6 +134,7 @@ li button {
     background: url(todo.png);
     background-position: -103px -18px;
     border-radius: 55%;
+    cursor: pointer;
 } 
 #menu {
 	position: relative;
@@ -161,6 +164,7 @@ li button {
     height: 24px;
     outline: none;
     margin-left:10px;
+    cursor: pointer;
 }
 #all {
 	margin-left: 82px;

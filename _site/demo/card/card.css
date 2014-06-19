@@ -1,7 +1,12 @@
+body {
+
+    background: #f8f8f8;
+}
 .maincontain{
 
     width:960px;
     margin:0 auto;
+    margin-top:42px;
 }
 .maincontain .container{
 
@@ -65,6 +70,7 @@
 
     width:960px;
     margin:0 auto;
+    height:54px;
 }
 .clickcontain .flip {
         
@@ -73,7 +79,7 @@
         margin-bottom: 11px;
         padding:7px 5px;
         position:relative;
-        left:413px;
+        left:403px;
         float:left;
         width:103px;
         text-decoration: none;
