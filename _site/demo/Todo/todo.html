@@ -1,0 +1,61 @@
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="todo.css">
+
+</head>
+<body>
+<div id="mainWrapper">
+<div id="logo"></div>
+<h1 id="appName"> Todo Web Application </h1>
+<div id="toDolist">
+  
+  <div id="userInput">
+    
+    <input type="text" id="newItem" placeholder="what needs to be done?">
+    <div id="toggleAll"> </div>
+  </div>
+    <div id="itemContainer">
+             
+      <script id="taskContainer" type="text/x-handlebars-template">
+          <li class="{{un}}" id="{{key}}">
+              <button class="destroy"></button>
+              <p class="{{class}}">{{output}}</p>
+              <div class="show"></div>
+          </li>
+      
+     </script>
+       <ul id="list">
+       </ul>
+
+    </div>
+
+     <div id="menu">
+       
+        <button id="all">All</button> 
+        <button id="active">Active</button>
+        <button id="showComplete">Completed</button>
+        <button id="clearCompleted">clear Completed </button>
+     </div>
+    
+</div>
+    <div id="info">
+      	<h2> Key Features of The Application : </h2>
+      	Session Storage,
+     	  <br>
+        Application Written in JavaScript(Object & Class) and jQuery,
+        <br>
+        User Can Mark the Task as Completed,
+        <br>
+        User can Categorized the Task as
+        All,Active,Completed,
+        <br>
+        User Friendly interface 
+    </div>
+</div>
+  <script type="text/javascript" src="jquery-2.1.0.js"></script>
+  <script type="text/javascript" src="handlebars.js"></script>
+  <script type="text/javascript" src="view.js"></script>
+  <script type="text/javascript" src="controllers.js"></script>
+  <script type="text/javascript" src="models.js"></script>
+</body>
+</html>
