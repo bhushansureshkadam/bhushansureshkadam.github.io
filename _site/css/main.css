@@ -245,6 +245,7 @@ width:420px;
 #description h2 {
      color: rgb(111, 190, 193);
      font-size: 20px;
+     padding:10px;
 }
 #description h3{
   text-align:start;
