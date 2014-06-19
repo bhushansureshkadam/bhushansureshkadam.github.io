@@ -126,7 +126,7 @@ body{
     text-align: center;
     padding-left: 0px;
     color: #fff;
-    background-color: #000;
+    background-color: #1A7699;
     border-color: red;
     font-weight: bold;
     border-radius: 15px;
@@ -170,7 +170,7 @@ body{
        text-align:center;
        padding-left:0px;
        color:#fff;
-       background-color:#000;
+       background-color:#1A7699;
        border-color:red;
        font-weight:bold;
        border-radius:15px;
@@ -214,7 +214,7 @@ body{
        text-align:center;
        padding-left:0px;
        color:#fff;
-       background-color:#000;
+       background-color:#1A7699;
        border-color:red;
        font-weight:bold;
        border-radius:15px;
@@ -258,7 +258,7 @@ body{
        text-align:center;
        padding-left:0px;
        color:#fff;
-       background-color:#000;
+       background-color:#1A7699;
        border-color:red;
        font-weight:bold;
        border-radius:15px;
@@ -296,13 +296,13 @@ body{
   }
 .footercontain .mypics {
      width: 81px;
-     height: 76px;
+     height: 75px;
      float: left;
      position: relative;
      margin-right: 134px;
      margin-left: 96px;
-     top: 46px;
-     background-position: -23px -13px;
+     top: 45px;
+     background-position: -10px -1px;
      border-radius:50%;
 
 }
@@ -343,9 +343,9 @@ body{
           height: 46px;
           float:right;
           position: relative;
-          top: 76px;
+          top: 73px;
           right: 341px;
-          background-position: -49px -121px;
+          background-position: -178px -221px;
 }
 
 
@@ -361,18 +361,18 @@ body{
 .mobile {
 
         width:52px;
-        height:73px;
+        height:56px;
         position:relative;
-        top:112px;
+        top:94px;
         float:right;
-        right:329px;
-        background-position: -137px -36px;
+        right:337px;
+        background-position: -119px -212px;
 }
 
 #myMobileNo {
         position:relative;
-        top:137px;
-        left:168px;
+        top:114px;
+        left:156px;
         color:#998A8A;
 }
 
