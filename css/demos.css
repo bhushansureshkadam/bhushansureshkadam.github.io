@@ -201,7 +201,7 @@ body{
 }
 .sprites  {
 
-  background: url(image/sprites.png);
+  background: url(../image/sprites.png);
   background-repeat:no-repeat;
 }
 
