@@ -10,7 +10,6 @@
   padding: 0;
 }
 
-html, body { height: 100%; }
 
 body {
   background-color: rgba(151, 136, 136, 0.11);
@@ -168,10 +167,7 @@ a:visited { color: #a0a; }
                margin:0 auto;
 }
 
-body{
-  
-  height: 915px;
-}
+
 
  .name {
   position:relative;
@@ -348,7 +344,6 @@ width:420px;
 }
 #footercontain {
   width: auto;
-  height: 231px;
 }
 .contain{
   width: 960px;
