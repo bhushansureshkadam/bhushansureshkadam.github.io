@@ -157,14 +157,14 @@ body{
 .main ul li.card img {
 
   margin:20px;
-  margin-left:2px;
+  
 }
 .main ul li.card a.demoButton {
                
-       margin-top:10px;
+       margin-top:0px;
        display:block;
        margin-left:0px;
-       margin-bottom:11px;
+       margin-bottom:4px;
        padding:7px 5px;
        width:103px;
        text-align:center;
@@ -244,7 +244,7 @@ body{
 .main ul li.float img {
 
   margin:20px;
-  margin-left:2px;
+  margin-left:9px;
   margin-bottom:62px;
 }
 .main ul li.float a.demoButton {
