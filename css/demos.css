@@ -1,6 +1,6 @@
 body{
   
-
+  margin:0;
   background:rgba(151, 136, 136, 0.11);
 }
 #header {
@@ -51,21 +51,86 @@ body{
 .postcontainer {
 
       width:960px;
+      height:965px;
       margin:0 auto;
-      margin-bottom:70px;
+    
 }
 .main {
 
-      height:437px;
+      height:950px;
       margin-bottom:15px;
 }
 .main h1 {
+
+  color: #999494;
+
+}
+.main h3 {
+
+  font-size:20px;
+  color: #999494;
+
+}
+.main h4 {
+
+  font-size: 20px;
+  color: #999494;
 
 }
 .main ul {
      padding: 0;
      margin: 0;
      height: 376px;
+}
+
+.main ul.project {
+
+     padding: 0;
+     margin: 0;
+     height: 389px;
+} 
+.main ul.project li {
+
+        list-style:none;
+        height:353px;
+        float:left; 
+        width:280px;
+        padding:10px;
+        margin-right:27px;
+        background: #fff;
+        border: 1px solid #D7CECE;
+
+}
+.main ul.project li a.title {
+
+     font-size: 1.2em;
+     margin-bottom: 10px;
+     display: inline-block;
+     width: 253px;
+     padding: 2px;
+     border-bottom: 2px solid rgb(221, 56, 115);
+     color: blue;
+     height: 44px;
+     text-decoration: none;
+}
+.main ul.project li img {
+  margin: 16px;
+}
+.main ul.project li a.demoButton {
+    margin-top: 13px;
+    display: block;
+    margin-left: 1px;
+    margin-bottom: 5px;
+    padding: 7px 5px;
+    width: 103px;
+    text-align: center;
+    padding-left: 0px;
+    color: #fff;
+    background-color: #000;
+    border-color: red;
+    font-weight: bold;
+    border-radius: 15px;
+    text-decoration: none;
 }
 .main ul li.card {
 
