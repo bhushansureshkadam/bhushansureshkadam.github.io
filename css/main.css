@@ -190,7 +190,7 @@ a:visited { color: #a0a; }
 } 
 .nav li a:hover {
            
-      border-bottom: 1px solid #000;
+      border-bottom: 2px solid #000;
 }
 
 .nav li a {
@@ -201,7 +201,7 @@ a:visited { color: #a0a; }
 }
 .nav li.about a {
 
-  border-bottom: 1px solid #000;
+  border-bottom: 2px solid #000;
   color:#998A8A;
 }
 #main {
