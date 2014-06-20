@@ -1,7 +1,7 @@
 body{
   
-
   background:rgba(151, 136, 136, 0.11);
+  margin:0;
 }
 #header {
           height: 158px;
@@ -162,13 +162,13 @@ body{
   }
 .footercontain .mypics {
      width: 81px;
-     height: 76px;
+     height: 75px;
      float: left;
      position: relative;
      margin-right: 134px;
      margin-left: 96px;
      top: 46px;
-     background-position: -23px -13px;
+     background-position: -10px 0px;
      border-radius:50%;
 
 }
@@ -211,7 +211,7 @@ body{
           position: relative;
           top: 76px;
           right: 341px;
-          background-position: -49px -121px;
+          background-position: -178px -221px;
 }
 
 
@@ -227,17 +227,17 @@ body{
 .mobile {
 
         width:52px;
-        height:73px;
+        height:52px;
         position:relative;
-        top:112px;
+        top:102px;
         float:right;
         right:329px;
-        background-position: -137px -36px;
+        background-position: -119px -212px;
 }
 
 #myMobileNo {
         position:relative;
-        top:137px;
-        left:168px;
+        top:122px;
+        left:159px;
         color:#998A8A;
 }
