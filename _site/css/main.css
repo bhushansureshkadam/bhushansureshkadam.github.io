@@ -166,10 +166,7 @@ a:visited { color: #a0a; }
                width:960px;
                margin:0 auto;
 }
-
-
-
- .name {
+.name {
   position:relative;
   top:63px;
   color:rgb(111, 190, 193);
@@ -193,7 +190,7 @@ a:visited { color: #a0a; }
 } 
 .nav li a:hover {
            
-      border-bottom: 1px solid #000;
+      border-bottom: 2px solid #000;
 }
 
 .nav li a {
@@ -204,7 +201,7 @@ a:visited { color: #a0a; }
 }
 .nav li.about a {
 
-  border-bottom: 1px solid #000;
+  border-bottom: 2px solid #000;
   color:#998A8A;
 }
 #main {
@@ -270,7 +267,6 @@ width:420px;
   background: url(../image/sprites.png);
   background-repeat:no-repeat;
 }
-
 #myskills {
   width: 420px;
   height: 451px;
@@ -282,6 +278,7 @@ width:420px;
      padding: 12px;
      color: rgb(111, 190, 193);
      font-size: 20px;
+     padding-left:81px;
 }
 
 #myskills .skill1{
@@ -344,7 +341,6 @@ width:420px;
       float: left;
       color: #B0A7A7;
   }
-
 .contain .mypics {
      width: 81px;
      height: 75px;
@@ -387,9 +383,7 @@ width:420px;
       top: 27px;
       width: 256px;
       float: left;
-
 }
-
 .contactme .mail {
           width: 41px;
           height: 46px;
@@ -399,9 +393,8 @@ width:420px;
           right: 341px;
           background-position: -178px -221px;
 }
-
-
 #emailId {
+
       position: relative;
       top:50px;
       left:27px;
