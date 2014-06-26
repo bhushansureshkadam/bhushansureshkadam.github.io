@@ -58,10 +58,10 @@ ul.nav li a {
 #slider {
 	clear:both;
 	float:left;
-	width:100%;
+	
 }
 #slider img {
-	width:100%;
+	width:1349px;
 	height:517px;
 }
 
@@ -107,7 +107,15 @@ ul.nav li a {
 ul.nav li:hover{
 	background:tomato;
 }
-
+#slider {
+	clear:both;
+	float:left;
+	width:100%;
+}
+#slider img {
+	width:100%;
+	height:517px;
+}
 }
 
 @media only screen and (max-width:767px) and (min-width:321px)  {
@@ -153,6 +161,15 @@ ul.nav li a {
 ul.nav li:hover{
 	background:tomato;
 }
+#slider {
+	clear:both;
+	float:left;
+	width:100%;
+}
+#slider img {
+	width:100%;
+	height:517px;
+}
 }
 
 @media only screen and  (max-width:990px) and (min-width:768px) {
@@ -171,11 +188,29 @@ ul.nav {
          text-align:left;
          margin-top:0;
 }
+#slider {
+	clear:both;
+	float:left;
+	width:100%;
+}
+#slider img {
+	width:100%;
+	height:517px;
+}
 }
 @media only screen and (min-width:992px) {
 .container {
 	width:970px;
 	padding:0;
+}
+#slider {
+	clear:both;
+	float:left;
+	width:100%;
+}
+#slider img {
+	width:100%;
+	height:517px;
 }
 }
 
@@ -185,6 +220,15 @@ ul.nav {
 	width:1170px;
 	padding-left:15px;
 	padding-right:15px;
+}
+#slider {
+	clear:both;
+	float:left;
+	width:100%;
+}
+#slider img {
+	width:100%;
+	height:517px;
 }
 }
 
