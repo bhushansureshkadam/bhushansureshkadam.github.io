@@ -11,6 +11,8 @@ body {
 .header {
      height:87px;
      background: #fff;
+     margin-left:auto;
+     margin-right:auto;
 }
 .container {
 	height:87px;
