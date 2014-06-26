@@ -59,6 +59,8 @@ ul.nav li a {
 	clear:both;
 	float:left;
 	width:1349px;
+	margin-right:auto;
+	margin-left:auto;
 	
 }
 #slider img {
@@ -199,7 +201,7 @@ ul.nav {
 	height:517px;
 }
 }
-@media only screen and (min-width:992px) {
+@media only screen and (min-width:992px) and (max-width:1199px) {
 .container {
 	width:970px;
 	padding:0;
@@ -215,7 +217,7 @@ ul.nav {
 }
 }
 
-@media only screen and (min-width:1200px) and (max-width:1680px){
+@media only screen and (min-width:1200px) and (max-width:1555px){
 
 .container {
 	width:1170px;
