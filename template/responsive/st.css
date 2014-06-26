@@ -6,7 +6,9 @@ body {
 
 }
 .site {
-	width:1349px
+	width:1349px;
+	margin-left: auto;
+	margin-right: auto;
 	height:800px;
 }
 .header {
