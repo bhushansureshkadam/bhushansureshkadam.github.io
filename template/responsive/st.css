@@ -223,9 +223,8 @@ ul.nav {
 @media only screen and (min-width:1200px) and (max-width:1555px){
 
 .container {
-	width:1170px;
-	padding-left:15px;
-	padding-right:15px;
+	width:1166px;
+	padding:0;
 }
 #slider {
 	clear:both;
