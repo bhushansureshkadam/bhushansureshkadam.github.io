@@ -120,7 +120,7 @@ ul.nav li a:hover {
          width: 24%;
          height: 200px;
          margin-right: 10px;
-         border:1px solid;
+         border:1px solid #999;
          text-align:center;
 }
 .col1 h2 {
@@ -128,14 +128,14 @@ ul.nav li a:hover {
 	  font-size: 20px;
     color: #fff;
     margin-top: 0;
-    background: #701A37;
+    background: #33877d;
     font-family: sans-serif;
     margin: 0;
     padding: 21px;
 }
 .col1 h3 {
 
-	margin: 0;
+	  margin: 0;
     padding: 0px;
     padding:30px;
     font-family:sans-serif;
@@ -143,9 +143,9 @@ ul.nav li a:hover {
     font-size: 14px;
 }
 .col2 {
-	float: left;
+	  float: left;
     width: 24%;
-    border: 1px solid;
+    border: 1px solid #999;
     margin-right: 9px;
     height: 200px;
     text-align: center;
@@ -154,7 +154,7 @@ ul.nav li a:hover {
 .col2 h2 {
       margin: 0;
       padding: 19px;
-      background: #701A37;
+      background: #33877d;
       font-family: sans-serif;
       color: #fff;
 
@@ -170,7 +170,7 @@ ul.nav li a:hover {
 .col3 {
        float: left;
        width: 24%;
-       border: 1px solid;
+       border: 1px solid #999;
        height: 200px;
        margin-right: 11px;
        text-align: center;
@@ -179,7 +179,7 @@ ul.nav li a:hover {
 
 	  margin: 0;
     padding: 20px;
-    background: #701A37;
+    background: #33877d;
     font-family: sans-serif;
     color: #fff;
     font-size: 20px;
@@ -193,20 +193,19 @@ ul.nav li a:hover {
     color: #666;
 }
 .col4 { 
-	float: left;
+	  float: left;
     width: 24%;
-    border: 1px solid;
-
+    border: 1px solid #999;
     height: 200px;
     text-align: center;
  }
 .col4 h2 {
-	margin: 0;
-	background: #701A37;
-    font-family: sans-serif;
-    font-size: 20px;
-    padding: 20px;
-    color: #fff;
+	   margin: 0;
+	   background: #33877d;
+     font-family: sans-serif;
+     font-size: 20px;
+     padding: 20px;
+     color: #fff;
 
 }
 .col4 h3 {
@@ -256,12 +255,12 @@ ul.nav li a:hover {
 }
 .description {
 
-	padding: 0;
-    height: 357px;
-    width: 100%;
+	   padding: 0;
+     height: 357px;
+     width: 100%;
 }
 .description .col5 {
-	list-style: none;
+	  list-style: none;
     float: left;
     width: 31.33333%;
     margin-left: 5px;
@@ -372,7 +371,7 @@ ul.nav li a:hover {
         margin-left: auto;
 }
 .footerdescription {
-	    padding: 0;
+	      padding: 0;
         width: 100%;
         height: 200px;
 }
@@ -384,7 +383,7 @@ ul.nav li a:hover {
         margin-top: 40px;
 }
 .footerdescription .col8 h1{
-	     margin: 0;
+	       margin: 0;
          margin-left: 54;
          font-size: 16px;
          font-family: sans-serif;
@@ -590,29 +589,29 @@ ul.nav li:hover{
 .col1{
          float:none;
          list-style: none;
-         width: 100%;
-         border:none;
+         width: 99%;
+         border:1px solid #999;
 }
 .col2 {
     float:none;
-    width: 100%;
+    width: 99%;
     list-style: none;
     margin-top: 10px;
-    border:none;
+    border:1px solid #999;
 }
 .col3 {
        float:none;
        list-style: none;
-       width: 100%;
+       width: 99%;
        margin-top:10px;
-       border: none;
+       border: 1px solid #999;
 }
 .col4 { 
-	   width: 100%;
+	   width: 99%;
 	   float:none;
 	   list-style:none;
 	   margin-top:10px;
-	   border:none;
+	   border:1px solid #999;
 }
 .mains { 
   height: 640px;
@@ -676,7 +675,7 @@ ul.nav li:hover{
      margin-top: 0;
 }
 .footercontainer {
-	     width:159px;
+	     width:100%;
 	     height: 300px;
 }
 .footerdescription {
@@ -690,15 +689,17 @@ ul.nav li:hover{
         margin-left: 0px;
 }
 .footerdescription .col8 h1 {
-  margin-left:5px;
+      margin-left:0px;
+      width:100%;
 }
 .footerdescription .col8 p {
-  margin-left:5px;
+  margin-left:0px;
+  width: 100%;
 }
 .social {
 
 	height:32px;
-	margin-left: 8px;
+	margin-left: 0px;
 
 }
 .footerdescription .col9 {
@@ -709,10 +710,27 @@ ul.nav li:hover{
           margin-top:12px;
 }
 .footerdescription .col9 h1{
-    margin-left:8px;
+    margin-left:0px;
+    width:100%;
 }
 .footerdescription .col9 p {
-  margin-left:3px;
+  margin-left:0px;
+  width: 100%;
+}
+.footerdescription .col9 .facebook {
+   margin-left: 0px;
+}
+.footerdescription .col9 .twitter {
+   margin-left:0px;
+}
+.footerdescription .col9 .devianart {
+  margin-left:0px;
+}
+.footerdescription .col9 .flickr {
+  margin-left:0px;
+}
+.footerdescription .col9 .dribble{
+  margin-left:0px;
 }
 .footerdescription .col10 {
 	    
@@ -721,21 +739,23 @@ ul.nav li:hover{
          margin-top:10px;
 }
 .footerdescription .col10 h1 {
-         margin-left: 19px;
+         margin-left: 0px;
+         width:100%;
 }
 .footerdescription .col10 .search {
         
-        height:32%;
+        height:13%;
 }
 .footerdescription .col10 .search .nomargin {
        
-        margin-left: 16px;
+        margin-left: 0px;
 }
 .footerdescription .col10 .search .go a {
       
         border-radius:2px;
-        left:3px;
+        right:13px;
         padding: 10px 4px 11px;
+        bottom: 0px;
 }
 
 }
@@ -816,29 +836,29 @@ ul.nav li:hover{
 .col1{
          float:none;
          list-style:none;
-         width: 100%;
-         border:none;
+         width: 99%;
+         border:1px solid #999;
 }
 .col2 {
         float:none;
         list-style: none;
-        width: 100%;
+        width: 99%;
         margin-top: 10px;
-        border:none;
+        border:1px solid #999;
 }
 .col3 {
        float:none;
        list-style: none;
-       width: 100%;
+       width: 99%;
        margin-top:10px;
-       border:none;
+       border:1px solid #999;
 }
 .col4 { 
-	width: 100%;
+	width: 99%;
 	list-style:none;
 	float:none;
 	margin-top:10px;
-	border: none;
+	border: 1px solid #999;
 }
 .description {
 
