@@ -412,7 +412,7 @@ ul.nav li a:hover {
 	width:100%
 }
 .footerdescription .col9 .facebook {
- background:url(facebook.png);
+ background:url(image/facebook.png);
  width: 32px;
  height: 32px;
  background-repeat: no-repeat;
@@ -424,7 +424,7 @@ ul.nav li a:hover {
 }
 
 .footerdescription .col9 .twitter {
-  background:url(twitter.png);
+  background:url(image/twitter.png);
   width: 32px;
   height: 32px;
   background-repeat: no-repeat;
@@ -435,7 +435,7 @@ ul.nav li a:hover {
   margin-left: 10px;
 }
 .footerdescription .col9 .devianart {
-  background:url(deviantart.png);
+  background:url(image/deviantart.png);
   width: 32px;
   height: 32px;
   background-repeat: no-repeat;
@@ -446,7 +446,7 @@ ul.nav li a:hover {
   margin-left: 10px;
 }
 .footerdescription .col9 .flickr {
-  background:url(flickr.png);
+  background:url(image/flickr.png);
   width: 32px;
   height: 32px;
   background-repeat: no-repeat;
@@ -457,7 +457,7 @@ ul.nav li a:hover {
   margin-left: 10px;
 }
 .footerdescription .col9 .dribble {
-  background:url(dribbble.png);
+  background:url(image/dribbble.png);
   width: 32px;
   height: 32px;
   background-repeat: no-repeat;

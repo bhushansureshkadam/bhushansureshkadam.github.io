@@ -57,7 +57,7 @@ body{
 }
 .main {
 
-      height:525px;
+      height:1000px;
       
 }
 .main h1 {
@@ -75,6 +75,7 @@ body{
        width:420px;
        height:414px;
        padding:20px;
+       margin-bottom:20px;
        background:#fff;
        border:1px solid #D7CECE;
        margin-right:10px;
@@ -96,7 +97,7 @@ body{
 }
 .main ul li img.image2 {
 
-      margin-top:62px; 
+      margin-top:38px; 
 }
 .main ul li a.demoButton {
                
@@ -116,10 +117,10 @@ body{
        text-decoration:none;
 }
 .main ul li a.demoButton2 {
-       margin-top:51px;
+       margin-top:75px;
        display:block;
        margin-left:0px;
-       margin-bottom:11px;
+       margin-bottom:3px;
        padding:7px 5px;
        width:103px;
        text-align:center;
@@ -130,6 +131,29 @@ body{
        font-weight:bold;
        border-radius:15px;
        text-decoration:none;
+}
+.main ul li img.image3 {
+
+  padding:18px;
+
+}
+.main ul li a.demoButton3 {
+
+       margin-top:75px;
+       display:block;
+       margin-left:0px;
+       margin-bottom:3px;
+       padding:7px 5px;
+       width:103px;
+       text-align:center;
+       padding-left:0px;
+       color:#fff;
+       background-color:#1A7699;
+       border-color:red;
+       font-weight:bold;
+       border-radius:15px;
+       text-decoration:none;
+
 }
 .sprites  {
 
@@ -142,6 +166,7 @@ body{
   height: 287px;
   margin: 0 auto;
   padding:10px;
+  clear:both;
 }
 .footercontain .whatIdo {
     float: left;
