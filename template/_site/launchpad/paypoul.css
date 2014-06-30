@@ -1,0 +1,505 @@
+body {
+	margin: 0;
+	padding: 0;
+}
+.container {
+  width:960px;
+  margin:0 auto;
+}
+
+#header {
+     width:960px;
+     height: 890px;
+    
+}
+.headercontain-top {
+	
+    width: 960px;
+    height: 50px;
+    background: white;
+}
+
+.logo {
+	     width: 186px;
+	     height: 50px;
+       background: url(images/logo.png);
+       float: left;
+       margin-left: 84px;
+}
+.headercontain-top ul {
+	  width:355px;
+	  height: 36px;
+	  float: right;
+    padding: 0;
+    margin-right:47px;
+}
+.headercontain-top ul li {
+	list-style: none;
+	display: inline-block;
+	padding-right: 23px;
+}
+.headercontain-top ul li.tour a {
+    color:#000;
+}
+.headercontain-top ul li a {
+	color:#999;
+	text-decoration: none;
+	font-size:16px;
+	letter-spacing: 1px;
+	font-weight: bold;
+	font-family: sans-serif; 
+}
+.headercontain-top ul li a:hover {
+	color: #000;
+}
+#headercontain-bottom {
+    padding-bottom:50px;
+    padding-top:148px;
+    text-align:center;
+}
+#headercontain-bottom .wrap h1 {
+	font-size: 47px;
+	font-family:monospace;
+	margin:0;
+
+}
+#headercontain-bottom .wrap  h1 span {
+    font-family:sans-serif;
+ }
+#headercontain-bottom .wrap h2 {
+	 color:#555;
+     font-size:26px;
+     margin:0;
+     padding:8px;
+}
+#headercontain-bottom .wrap .banner {
+	background:url(images/banner.png);
+	width:813px;
+	height:347px;
+	margin:0 auto;
+}
+
+#headercontain-bottom .wrap h3 {
+	color:#555;
+	font-size:40px;
+	font-family: cursive;
+}
+#headercontain-bottom .wrap  h3 span {
+    font-family:sans-serif;
+}
+#headercontain-bottom .wrap .button {
+	     width:205px;
+         padding:17px 50px 14px 0px;
+         text-align:center;
+         margin:0 auto;
+   }
+#headercontain-bottom .wrap  .button a {
+    
+     padding:12px 33px 8px 39px;
+     text-decoration:none;
+     background:#1777d9;
+     color:#fff;
+     text-transform:uppercase;
+     border:2px solid #076cce;
+     font-family:sans-serif;
+     text-shadow: 0px 1px 3px rgba(0, 0, 0, 0.31);
+     border-radius:5px;
+} 
+#headercontain-bottom .wrap  .button a:hover {
+        background:#076cce;
+}
+#headercontain-bottom .wrap  .button .arrow {
+      background:url(images/arrow.png);
+      background-repeat:no-repeat;
+      width:27px;
+      height:26px;
+      float:left;
+      float:left;
+      position:relative;
+      bottom:24px;
+      left:183px;
+}
+#headercontain-bottom .wrap .desc {
+	         
+	           color:#555;
+             font-family:sans-serif;
+             font-size:17px;
+}
+
+#headercontain-bottom .wrap  .desc span {
+	color:#328fef;
+}
+#main {
+	width:960px;
+
+}
+
+#main .features {
+	   height:750px;
+	   padding-top:70px;
+     padding-bottom: 70px;
+     background: #f7f7f7;
+     box-shadow:inset 1px 1px 31px  5px #CAc9c9;
+     -webkit-box-shadow:inset 1px 1px 31px 5px #CAc9c9;
+     border-bottom: 1px solid #CAC9C9;
+}
+
+#main .features h3 {
+	            text-align: center;
+              font-family: serif;
+              font-size: 54px;
+              color: #333;
+
+} 
+#main .features h3 span {
+    font-family:sans-serif;
+}
+#main .features .content {
+	background:url(images/content-banner.jpg);
+    height: 1000px;
+    background-repeat: no-repeat;
+    text-align: center;
+  }
+#pricing {
+         width:960px;
+         height:720px;
+         padding-top:70px;
+         margin:0 auto;
+}
+
+#pricing h3 {
+              margin:0;
+              text-align: center;
+              color:#333;
+              font-size:51px;
+              padding-bottom:40px;
+    }
+#pricing h3 span  {
+  font-family:sans-serif;
+}
+#pricing #priceplans {
+      height:602px;
+      width:930px;
+      float:left;
+      margin-left:20px;
+}
+#pricing #priceplans .plan {
+        width:300px;
+        height:600px;
+        float:left;
+        margin-right:10px;
+        border-radius:5px;
+        box-shadow:0px 2px 10px #aaa;
+}
+#priceplans .plan .plancontainer {
+            list-style:none;
+            margin:0;
+            padding:0;
+            text-align:center;
+}
+
+#priceplans .plan .plancontainer li.title1 h3 {
+  font-family:sans-serif;
+  font-size:32px;
+  padding:23px;
+}
+#priceplans .plan .plancontainer .price {
+  background:#202020;
+}
+
+#priceplans .plan .plancontainer .price p {
+
+           margin:0;
+           padding:23px;
+           font-size:25px;
+           font-family:sans-serif;
+           color:#fff;
+}
+#priceplans .plan .plancontainer .price p span {
+
+        color:#E2EDFD;
+}
+
+#priceplans .plan .plancontainer li {
+  list-style: none;
+
+}
+
+#priceplans .plan .plancontainer li ul.options {
+          padding:0;
+}
+#priceplans .plan .plancontainer li ul.options li {
+
+                padding:23px;
+                color:#0365FF;
+                font-size:19px;
+                font-family:sans-serif;
+                border-bottom:1px solid #e9e9e9;
+}
+#priceplans .plan .plancontainer li ul.options li span {
+         
+         color:#333;
+}
+#priceplans .plan .plancontainer .button {
+
+  padding:36px;
+
+}
+#priceplans .plan .plancontainer .button a {
+         
+
+          padding:17px;
+          padding-left:34px;
+          padding-right:34px;
+          border:2px solid #3998F5;
+          border-radius:5px;
+          text-decoration:none;
+          font-family:sans-serif;
+          text-transform:uppercase;
+          letter-spacing:3px;
+          color:#333;
+}
+#priceplans .plan .plancontainer .button a:hover {
+  background:#3998F5;
+  color:white;
+}
+
+#priceplans .plan .plancontainer li.title {
+
+       background:#333;
+
+}
+#priceplans .plan .plancontainer li.title h3 {
+
+             font-family:sans-serif;
+             font-size:32px;
+             padding:23px;
+             color:#fff;
+  }
+#priceplans .plan .plancontainer .button1 {
+
+            padding:36px;
+}
+#priceplans .plan .plancontainer .button1 a {
+
+               padding:17px;
+               padding-left:34px;
+               padding-right:34px;
+               border:2px solid #3998F5;
+               border-radius:5px;
+               text-decoration:none;
+               font-family:sans-serif;
+               text-transform:uppercase;
+               letter-spacing:3px;
+               color:#fff;
+               background:#1B8DFC;  
+}
+#priceplans .plan .plancontainer .button1 a:hover {
+
+          border:2px solid #1B8DFC; 
+}
+ #support {
+
+            height:692px;
+            width:960px;
+            margin:0 auto;
+            padding-top:70px;
+ }
+
+ #support h3 {
+                margin: 0;
+                text-align: center;
+                padding:40px;
+                font-family:serif;
+                font-size:49px;
+}
+ #support h3 span {
+                    font-family:sans-serif;
+
+ }
+ #support  #sectiongroup {
+          height:366px;
+          padding-bottom:44px;
+ }
+ #support  #sectiongroup .col1 {
+           width:240px;
+           height:335px;
+           float:left;
+}
+ #support  #sectiongroup .col1 a .pic {
+      
+           background:url(images/pic.jpg);
+           width: 240px;
+           height:251px;
+           background-repeat:no-repeat;
+           box-shadow:5px 5px 5px #aaa;
+ }
+ #support  #sectiongroup .col1desc {
+             
+             padding-top:21px;
+             margin-left: 10px;
+ }
+  #support  #sectiongroup .col1desc  h4 {
+
+                  margin:0;
+                  list-style:none;
+                  font-family:sans-serif;
+                  font-size:20px;
+}
+#support  #sectiongroup .col1desc h4 a{
+              
+              text-decoration:none;
+              color:#333;
+ }
+ #support  #sectiongroup .col1desc h4 a:hover {
+            color: #3998F5;
+ }
+
+ #support  #sectiongroup .col1desc p {
+
+                    margin:0;
+                    padding-top:10px;
+                    letter-spacing:3px;
+                    font-family:sans-serif; 
+}
+#support  #sectiongroup .col2  {
+
+               width:240px;
+               height:335px;
+               float:left;
+}
+#support  #sectiongroup .col2 a  .pic1 {
+
+           background:url(images/pic1.jpg);
+           width: 228px;
+           height:251px;
+           background-repeat:no-repeat;
+           margin-left:4px;
+           box-shadow:5px 5px 5px #aaa;
+}
+#support  #sectiongroup .col3  {
+
+               width:240px;
+               height:335px;
+               float:left;
+}
+#support  #sectiongroup .col3 a  .pic2 {
+
+           background:url(images/pic2.jpg);
+           width: 227px;
+           height:251px;
+           background-repeat:no-repeat;
+           margin-left:4px;
+           box-shadow:5px 5px 5px #aaa;
+}
+#support  #sectiongroup .col4  {
+
+               width:240px;
+               height:335px;
+               float:right;
+}
+#support  #sectiongroup .col4 a  .pic3 {
+
+           background:url(images/pic3.jpg);
+           width: 232px;
+           height:251px;
+           background-repeat:no-repeat;
+           box-shadow:5px 5px 5px #aaa;
+
+}
+#support h5 {
+              width:960px;
+              float:left;
+              text-align:center;
+              font-size:26px;
+              margin:0;
+}
+#support .socialicons {
+
+    width:960px;
+    float:left;
+
+}
+#support .socialicons ul {
+      height:68px;
+      margin:0;
+      list-style:none;
+      padding:8px;
+}
+#support .socialicons ul li {
+    
+    float:left;
+}
+ ul li a .twitter {
+         width:51px;
+         height:43px;
+         background-position: 5px -42px;
+         position:relative;
+         top:9px;
+         left:371px;
+         float:left;
+}
+ .sprites {
+
+  background:url(images/sprite.png);
+  background-repeat:no-repeat; 
+
+}
+
+ ul li a .facebook {
+
+         width:51px;
+         height:43px;
+         background-position:-51px -42px;
+         position:relative;
+         top:9px;
+         left:371px;
+         float:left;
+}
+ ul li a .googleplus {
+         width:51px;
+         height:43px;
+         background-position:-107px -42px;
+         position:relative;
+         top:9px;
+         left:371px;
+         float:left;
+}
+ul li a .pinterest {
+         width:51px;
+         height:43px;
+         background-position:-161px -42px;
+         position:relative;
+         top:9px;
+         left:371px;
+         float:left;
+}
+ ul li a .linkedin {
+         width:51px;
+         height:43px;
+         background-position:-222px -42px;
+         position:relative;
+         top:9px;
+         left:371px;
+         float:left;
+}
+ ul li a .linkedin:hover {
+  background-position:-222px 1px; 
+ }
+ ul li a .pinterest:hover {
+  background-position:-161px 1px; 
+ }
+ ul li a .googleplus:hover {
+  background-position:-107px 1px;
+ }
+ ul li a .facebook:hover {
+
+         background-position:-51px 1px;
+}
+ul li a .twitter:hover {
+  background-position:5px 1px;
+}
+
+
+
+
