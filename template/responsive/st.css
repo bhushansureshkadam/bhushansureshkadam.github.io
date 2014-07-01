@@ -63,8 +63,6 @@ ul.nav li a:hover {
 	border-bottom:2px solid;
 }
 #slider {
-	clear:both;
-	float:left;
 	width:1349px;
 	margin-right:auto;
 	margin-left:auto;
@@ -118,6 +116,7 @@ ul.nav li a:hover {
 .col1{
          float: left;
          width: 24%;
+         list-style:none;
          height: 200px;
          margin-right: 10px;
          border:1px solid #999;
@@ -149,6 +148,7 @@ ul.nav li a:hover {
     margin-right: 9px;
     height: 200px;
     text-align: center;
+    list-style: none;
 
 }
 .col2 h2 {
@@ -172,6 +172,7 @@ ul.nav li a:hover {
        width: 24%;
        border: 1px solid #999;
        height: 200px;
+       list-style:none;
        margin-right: 11px;
        text-align: center;
 }
@@ -197,6 +198,7 @@ ul.nav li a:hover {
     width: 24%;
     border: 1px solid #999;
     height: 200px;
+    list-style:none;
     text-align: center;
  }
 .col4 h2 {
@@ -517,6 +519,7 @@ ul.nav li a:hover {
         font-weight: bold;
         text-align: center;
         line-height: 1;
+        border-radius:2px; 
 }
 @media only screen and  (max-width:320px) and (min-width:200px){
 .header {
@@ -547,7 +550,7 @@ ul.nav {
 }
 ul.nav li {
           
-	      list-style:none;
+	      
 	      width:100%;
 	      display:block;
 	      text-align:center;
@@ -560,14 +563,13 @@ ul.nav li:hover{
 	background:tomato;
 }
 #slider {
-	clear:both;
-	float:left;
+	
 	width:100%;
 }
 #slider img {
-	width:100%;
-	height:517px;
+  width:100%;  
 }
+
 .subheader{
 	height: 120px;
 }
@@ -588,39 +590,33 @@ ul.nav li:hover{
 }
 .col1{
          float:none;
-         list-style: none;
          width: 99%;
-         border:1px solid #999;
+    
 }
 .col2 {
     float:none;
     width: 99%;
-    list-style: none;
     margin-top: 10px;
-    border:1px solid #999;
+    
 }
 .col3 {
        float:none;
-       list-style: none;
        width: 99%;
        margin-top:10px;
-       border: 1px solid #999;
+       
 }
 .col4 { 
 	   width: 99%;
 	   float:none;
-	   list-style:none;
 	   margin-top:10px;
-	   border:1px solid #999;
+	   
 }
 .mains { 
   height: 640px;
 
 }
 .description {
-
-	  padding: 0;
-    height: 357px;
+    
     width: 97%;
     margin-left: 6px;
     
@@ -647,12 +643,11 @@ ul.nav li:hover{
 }
 .col6 h5 {
       margin-left:0px;
-      margin-bottom: 18px;
+      
 }
 .col6 p {
      
       margin-left:0px;
-      margin-bottom: 15px;
       margin-right: 0px;
 }
 .description .col7 {
@@ -752,8 +747,7 @@ ul.nav li:hover{
 }
 .footerdescription .col10 .search .go a {
       
-        border-radius:2px;
-        right:13px;
+      
         padding: 10px 4px 11px;
         bottom: 0px;
 }
@@ -791,7 +785,6 @@ ul.nav {
 }
 ul.nav li {
           
-	      list-style:none;
 	      width:100%;
 	      display:block;
 	      text-align:center;
@@ -804,13 +797,12 @@ ul.nav li:hover{
 	background:tomato;
 }
 #slider {
-	clear:both;
-	float:left;
+	
 	width:100%;
 }
 #slider img {
 	width:100%;
-	height:517px;
+
 }
 .subheader{
 	height: 80px;
@@ -835,40 +827,36 @@ ul.nav li:hover{
 }
 .col1{
          float:none;
-         list-style:none;
+      
          width: 99%;
-         border:1px solid #999;
+        
 }
 .col2 {
         float:none;
-        list-style: none;
         width: 99%;
         margin-top: 10px;
-        border:1px solid #999;
+        
 }
 .col3 {
        float:none;
-       list-style: none;
-       width: 99%;
+       width: 99%;  
        margin-top:10px;
-       border:1px solid #999;
+       
 }
 .col4 { 
-	width: 99%;
-	list-style:none;
-	float:none;
-	margin-top:10px;
-	border: 1px solid #999;
+	    width: 99%;
+ 	    float:none;
+	    margin-top:10px;
+	    
 }
 .description {
 
-	padding: 0;
-    height: 357px;
+	 
     width: 98%;
     padding-left:5px;
 }
 .description .col5 {
-	float: none;
+	  float: none;
     width: 98%;
     margin-left: 0px;
     padding-left:5px;
@@ -890,12 +878,11 @@ ul.nav li:hover{
 }
 .col6 h5 {
       margin-left:0px;
-      margin-bottom: 18px;
+      
 }
 .col6 p {
      
       margin-left:0px;
-      margin-bottom: 15px;
       margin-right: 0px;
 }
 .description .col7 {
@@ -915,7 +902,7 @@ ul.nav li:hover{
 }
 .footer {
 	   height: 385px;
-     margin-top:0;
+     margin-top:0px;
 }
 .footercontainer {
 	    width:300px; 
@@ -959,7 +946,7 @@ ul.nav li:hover{
 }
 .footerdescription .col10 .search .go a {
       
-        border-radius:2px;
+        
         left:2px;
 }
 
@@ -981,13 +968,12 @@ ul.nav {
          margin-top:0;
 }
 #slider {
-	clear:both;
-	float:left;
+
 	width:100%;
 }
 #slider img {
 	width:100%;
-	height:517px;
+
 }
 .main {
 	    height: 420px;
@@ -1046,13 +1032,12 @@ ul.nav {
 	padding:0;
 }
 #slider {
-	clear:both;
-	float:left;
+	
 	width:100%;
 }
 #slider img {
 	width:100%;
-	height:517px;
+
 }
 .postcontainer {
 	width:100%;
@@ -1077,6 +1062,7 @@ ul.nav {
 .footerdescription .col10 .search .go a {
 	right:3px;
 }
+
 }
 @media only screen and (min-width:1200px) and (max-width:1555px){
 
@@ -1085,13 +1071,12 @@ ul.nav {
 	padding:0;
 }
 #slider {
-	clear:both;
-	float:left;
+
 	width:100%;
 }
 #slider img {
 	width:100%;
-	height:517px;
+
 }
 .postcontainer {
 	width:1166px;
